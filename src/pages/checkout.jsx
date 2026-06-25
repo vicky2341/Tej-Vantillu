@@ -24,7 +24,7 @@ function Checkout({ cart }) {
     
 
     const message =
-      `🍱 *New Order - Tej Vantalu*%0A%0A` +
+      `🍱 *New Order - Tej Vantillu*%0A%0A` +
       `👤 Name: ${name}%0A` +
       `📞 Phone: ${phone}%0A%0A` +
       `📍 Address:%0A${address}%0A%0A` +
