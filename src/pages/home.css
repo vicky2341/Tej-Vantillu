@@ -159,12 +159,11 @@
         margin-top:-10px; /* Pull text closer to image */
     }
 
-    .hero-left h1{
-        font-size:42px;
-        line-height:1.15;
-        margin-bottom:10px;
-        margin-top: 2px;
-    }
+   .hero-left h1{
+    font-size:28px;
+    line-height:1.2;
+    white-space:nowrap;
+}
 
     .hero-left p{
         font-size:16px;
