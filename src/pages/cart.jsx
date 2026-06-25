@@ -46,7 +46,7 @@ function Cart({ cart, setCart }) {
             {cart.map((item) => (
   <div className="cart-card" key={item.id}>
 
-   
+    
 
     <div className="cart-details">
       <h3>{item.name}</h3>
