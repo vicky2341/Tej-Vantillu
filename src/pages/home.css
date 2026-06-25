@@ -136,12 +136,12 @@
 @media screen and (max-width: 768px){
 
     .hero-section{
-        flex-direction:column-reverse;
-        text-align:center;
-        padding:30px 20px;
-        min-height:auto;
-        gap:30px;
-    }
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:30px 20px;
+    min-height:auto;
+    gap:0px;   /* Reduced from 30px */
+}
 
     .hero-left{
         width:100%;

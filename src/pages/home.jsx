@@ -1,7 +1,7 @@
 import "./home.css";
 import me from "../assets/me.png";
 import family from "../assets/family.png";
-import tej from "../assets/tej.png";
+import tej5 from "../assets/tej5.png";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -54,7 +54,7 @@ function Home() {
       {/* Right Side */}
       <div className="hero-right">
         <img
-          src={family}
+          src={tej5}
           alt="family"
           className="main-image"
         />
