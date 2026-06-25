@@ -1,0 +1,178 @@
+body{
+    background:linear-gradient(
+        135deg,
+        #fff8f0,
+        #ffe8d6,
+        #fff3cd
+    );
+    min-height:100vh;
+}
+
+.checkout-page{
+    max-width:750px;
+    margin:50px auto;
+    padding:40px;
+    background:white;
+    border-radius:30px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+    border:3px solid #ffd166;
+}
+
+.checkout-page h1{
+    text-align:center;
+    font-size:42px;
+    color:#d62828;
+    font-weight:800;
+    margin-bottom:10px;
+}
+
+.checkout-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+    font-size:18px;
+}
+
+.checkout-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.checkout-form input,
+.checkout-form textarea{
+    padding:18px;
+    border:2px solid #ffd166;
+    border-radius:15px;
+    font-size:16px;
+    background:#fffdf8;
+    transition:.3s;
+    outline:none;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus{
+    border-color:#d62828;
+    box-shadow:0 0 15px rgba(214,40,40,.2);
+    background:white;
+}
+
+.checkout-form textarea{
+    resize:none;
+}
+
+.checkout-form button{
+    background:linear-gradient(
+        135deg,
+        #d62828,
+        #ff7b00
+    );
+    color:white;
+    border:none;
+    padding:18px;
+    border-radius:15px;
+    font-size:20px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(214,40,40,.3);
+}
+
+.checkout-form button:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(214,40,40,.4);
+}
+
+.checkout-form button:active{
+    transform:scale(.98);
+}
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width:1024px){
+
+    .checkout-page{
+        max-width:90%;
+        padding:30px;
+    }
+
+    .checkout-page h1{
+        font-size:36px;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+    .checkout-page{
+        max-width:95%;
+        margin:20px auto;
+        padding:20px;
+        border-radius:20px;
+    }
+
+    .checkout-page h1{
+        font-size:30px;
+    }
+
+    .checkout-subtitle{
+        font-size:15px;
+        margin-bottom:20px;
+    }
+
+    .checkout-form{
+        gap:15px;
+    }
+
+    .checkout-form input,
+    .checkout-form textarea{
+        padding:14px;
+        font-size:15px;
+        border-radius:12px;
+    }
+
+    .checkout-form button{
+        padding:15px;
+        font-size:18px;
+        border-radius:12px;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media screen and (max-width:480px){
+
+    .checkout-page{
+        margin:15px 10px;
+        padding:15px;
+    }
+
+    .checkout-page h1{
+        font-size:26px;
+    }
+
+    .checkout-subtitle{
+        font-size:14px;
+    }
+
+    .checkout-form input,
+    .checkout-form textarea{
+        padding:12px;
+        font-size:14px;
+    }
+
+    .checkout-form button{
+        width:100%;
+        font-size:16px;
+        padding:14px;
+    }
+
+}
