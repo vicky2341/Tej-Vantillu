@@ -134,52 +134,55 @@
 ========================= */
 
 @media screen and (max-width: 768px){
-
-    .hero-section{
-    flex-direction:column-reverse;
-    text-align:center;
-    padding:30px 20px;
-    min-height:auto;
-    gap:0px;   /* Reduced from 30px */
-}
-
-    .hero-left{
-        width:100%;
-        align-items:center;
+.hero-section{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding:20px 20px 30px;
+        min-height:auto;
+        gap:10px;
     }
 
     .hero-right{
         width:100%;
-    }
-
-    .hero-left h1{
-        font-size:42px;
-        line-height:1.2;
-    }
-
-    .hero-left p{
-        font-size:16px;
+        margin-bottom:-10px; /* Pull image closer to text */
     }
 
     .main-image{
         width:100%;
-        max-width:380px;
+        max-width:360px;
+        display:block;
+    }
+
+    .hero-left{
+        width:100%;
+        align-items:center;
+        margin-top:-10px; /* Pull text closer to image */
+    }
+
+    .hero-left h1{
+        font-size:42px;
+        line-height:1.15;
+        margin-bottom:10px;
+    }
+
+    .hero-left p{
+        font-size:16px;
+        line-height:1.6;
+        margin-top:8px;
     }
 
     .features{
         justify-content:center;
         flex-wrap:wrap;
         gap:15px;
-    }
-
-    .feature-card{
-        width:140px;
-        height:90px;
+        margin-top:25px;
+        margin-bottom:25px;
     }
 
     .order-btn{
         width:220px;
         height:55px;
+        margin-top:10px;
     }
 }
 
