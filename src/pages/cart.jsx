@@ -44,40 +44,35 @@ function Cart({ cart, setCart }) {
         <>
           <div className="cart-items">
             {cart.map((item) => (
-              <div className="cart-card" key={item.id}>
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="cart-image"
-                />
+  <div className="cart-card" key={item.id}>
 
-                <div className="cart-details">
-                  <h3>{item.name}</h3>
+   
 
-                  <p>{item.category}</p>
+    <div className="cart-details">
+      <h3>{item.name}</h3>
+      <p>{item.category}</p>
+    </div>
 
-                  <div className="quantity-box">
-                    <button
-                      onClick={() => decreaseQuantity(item.id)}
-                    >
-                      -
-                    </button>
+    <div className="cart-actions">
 
-                    <span>{item.quantity}</span>
+      <div className="quantity-box">
+        <button onClick={() => decreaseQuantity(item.id)}>
+          -
+        </button>
 
-                    <button
-                      onClick={() => increaseQuantity(item.id)}
-                    >
-                      +
-                    </button>
-                  </div>
+        <span>{item.quantity}</span>
 
-                  <h4>
-                    ₹{item.price * item.quantity}
-                  </h4>
-                </div>
-              </div>
-            ))}
+        <button onClick={() => increaseQuantity(item.id)}>
+          +
+        </button>
+      </div>
+
+     
+
+    </div>
+
+  </div>
+))}
           </div>
 
           {/* ORDER SUMMARY */}

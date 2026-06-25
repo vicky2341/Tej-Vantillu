@@ -366,3 +366,32 @@
         margin-bottom: 13px;
     }
 }
+@media screen and (max-width:768px){
+
+    .cart-card{
+        flex-direction:row;
+        text-align:left;
+        padding:12px;
+    }
+
+    .cart-small-image{
+        width:55px;
+        height:55px;
+    }
+
+    .cart-details h3{
+        font-size:15px;
+    }
+
+    .cart-details p{
+        font-size:12px;
+        
+    }
+
+    .cart-actions h4{
+        font-size:16px;
+        margin-left: 43px;
+        margin-top: 10px;
+    }
+
+}

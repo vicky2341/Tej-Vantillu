@@ -5,7 +5,7 @@ function Navbar({ cartCount }) {
   return (
     <>
       <div className="top-bar">
-        ✨ Homemade Goodness Delivered with Love - Across India! ❤️
+        ✨ Homemade Goodness Delivered with Love - Across Kurnool! ❤️
       </div>
 
       <nav className="navbar">
