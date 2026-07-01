@@ -8,7 +8,7 @@ function Menu({ cart, setCart }) {
       id: 1,
       name: "Konaseema Kodi Pulav",
       category: "Chicken Special",
-      price: 210,
+      price: 249,
       image: "https://i.ytimg.com/vi/Mf_ZZmJi4-c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdkKAi6FNOS6zasiwS8I-61770_A"
     },
 
@@ -16,7 +16,7 @@ function Menu({ cart, setCart }) {
       id: 2,
       name: "Chicken Curry with Bagara Rice",
       category: "Chicken Special",
-      price: 210,
+      price: 249,
       image: "https://b.zmtcdn.com/data/dish_photos/485/6772b7a1aec59f59791fc6ddbf9e0485.jpeg"
     },
 
@@ -24,7 +24,7 @@ function Menu({ cart, setCart }) {
       id: 3,
       name: "Chicken Fry with Bagara Rice",
       category: "Chicken Special",
-      price: 210,
+      price: 249,
       image: "https://b.zmtcdn.com/data/dish_photos/7fd/d0241b1ec409f0a15644f1840b2b77fd.jpg"
     },
 
@@ -32,7 +32,7 @@ function Menu({ cart, setCart }) {
       id: 4,
       name: "Kobbarannam with Chicken Curry",
       category: "Chicken Special",
-      price: 210,
+      price: 249,
       image: "https://i.ytimg.com/vi/pLsIRJNY3bQ/sddefault.jpg"
     },
 
@@ -40,7 +40,7 @@ function Menu({ cart, setCart }) {
       id: 5,
       name: "Kobbarannam with Chicken Fry",
       category: "Chicken Special",
-      price: 210,
+      price: 249,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6g4ILF2eaoaofJ5C5eGk2zhnHBqb4iT0kcA&s"
     },
 
@@ -48,7 +48,7 @@ function Menu({ cart, setCart }) {
       id: 6,
       name: "Mutton Curry with Bagara Rice",
       category: "Mutton Special",
-      price: 349,
+      price: 399,
       image: "https://static.wixstatic.com/media/748bfd_a40404f36e404120818b6bb9ea679022~mv2.jpg/v1/fill/w_568,h_758,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/748bfd_a40404f36e404120818b6bb9ea679022~mv2.jpg"
     },
 
@@ -56,7 +56,7 @@ function Menu({ cart, setCart }) {
       id: 7,
       name: "Mutton Curry with Kobbarannam",
       category: "Mutton Special",
-      price: 349,
+      price: 399,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXO2WQR9wXjFOjVJMEbheN-cNRwd0og-tYCA&s"
     },
 
