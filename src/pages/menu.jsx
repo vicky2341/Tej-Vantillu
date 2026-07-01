@@ -8,7 +8,7 @@ function Menu({ cart, setCart }) {
       id: 1,
       name: "Konaseema Kodi Pulav",
       category: "Chicken Special",
-      price: 150,
+      price: 210,
       image: "https://i.ytimg.com/vi/Mf_ZZmJi4-c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdkKAi6FNOS6zasiwS8I-61770_A"
     },
 
@@ -16,7 +16,7 @@ function Menu({ cart, setCart }) {
       id: 2,
       name: "Chicken Curry with Bagara Rice",
       category: "Chicken Special",
-      price: 150,
+      price: 210,
       image: "https://b.zmtcdn.com/data/dish_photos/485/6772b7a1aec59f59791fc6ddbf9e0485.jpeg"
     },
 
@@ -24,7 +24,7 @@ function Menu({ cart, setCart }) {
       id: 3,
       name: "Chicken Fry with Bagara Rice",
       category: "Chicken Special",
-      price: 150,
+      price: 210,
       image: "https://b.zmtcdn.com/data/dish_photos/7fd/d0241b1ec409f0a15644f1840b2b77fd.jpg"
     },
 
@@ -32,7 +32,7 @@ function Menu({ cart, setCart }) {
       id: 4,
       name: "Kobbarannam with Chicken Curry",
       category: "Chicken Special",
-      price: 150,
+      price: 210,
       image: "https://i.ytimg.com/vi/pLsIRJNY3bQ/sddefault.jpg"
     },
 
@@ -40,7 +40,7 @@ function Menu({ cart, setCart }) {
       id: 5,
       name: "Kobbarannam with Chicken Fry",
       category: "Chicken Special",
-      price: 150,
+      price: 210,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6g4ILF2eaoaofJ5C5eGk2zhnHBqb4iT0kcA&s"
     },
 
@@ -48,7 +48,7 @@ function Menu({ cart, setCart }) {
       id: 6,
       name: "Mutton Curry with Bagara Rice",
       category: "Mutton Special",
-      price: 320,
+      price: 349,
       image: "https://static.wixstatic.com/media/748bfd_a40404f36e404120818b6bb9ea679022~mv2.jpg/v1/fill/w_568,h_758,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/748bfd_a40404f36e404120818b6bb9ea679022~mv2.jpg"
     },
 
@@ -56,7 +56,7 @@ function Menu({ cart, setCart }) {
       id: 7,
       name: "Mutton Curry with Kobbarannam",
       category: "Mutton Special",
-      price: 320,
+      price: 349,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXO2WQR9wXjFOjVJMEbheN-cNRwd0og-tYCA&s"
     },
 
@@ -64,7 +64,7 @@ function Menu({ cart, setCart }) {
       id: 8,
       name: "Royyala Pulav",
       category: "Prawn Special",
-      price: 299,
+      price: 310,
       image: "https://www.foodiaq.com/wp-content/uploads/2024/12/Prawn-Pulao.jpg"
     },
 
@@ -72,7 +72,7 @@ function Menu({ cart, setCart }) {
       id: 9,
       name: "Royyala Eguru",
       category: "Prawn Special",
-      price: 299,
+      price: 310,
       image: "https://static.asianetnews.com/images/w-412,h-232,imgid-01k96xj1zqj0tjjftb91pq9jzx,imgname-1-1762242660343.jpg"
     },
 
@@ -80,7 +80,7 @@ function Menu({ cart, setCart }) {
       id: 10,
       name: "Royyala Fry",
       category: "Prawn Special",
-      price: 299,
+      price: 310,
       image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyH3Hmm_n76lQQbCU32eryEzW2qq9PC68iOacYqJ9BI-lpmmkPE44xQWSCYFwMOhwdH_hJCGcJsCl58_Vs3H2NjGo0UcMjielCQ7dXEd4vRM0UhYWD3DNjmDE-XfaekNKkiKfZ5Q1xl4A/s1600/DSC_0046.JPG"
     },
 
@@ -88,7 +88,7 @@ function Menu({ cart, setCart }) {
       id: 11,
       name: "Fish Pulusu",
       category: "Fish Special",
-      price: 180,
+      price: 229,
       image: "https://www.lekhafoods.com/media/1051069/andhra-spicy-fish-curry.jpg"
     },
 
@@ -96,7 +96,7 @@ function Menu({ cart, setCart }) {
       id: 12,
       name: "Fish Fry",
       category: "Fish Special",
-      price: 180,
+      price: 229,
       image: "https://i0.wp.com/spiceindiaonline.com/wp-content/uploads/2017/04/Meen-Varuval-Tilapia-Fish-Fry-2.jpg?fit=1000%2C667&ssl=1"
     }
   ];
